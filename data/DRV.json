@@ -1,0 +1,71 @@
+[	
+	{	"gender": "male",
+		"age-beg": 0,
+		"age-end": 25,
+		"calories": 2800,
+		"protein":  56,
+		"fat":		90,
+		"sodium":   1500
+	},
+	{	"gender": "male",
+		"age-beg": 26, 
+		"age-end": 45,
+		"calories": 2600,
+		"protein":  56,
+		"fat":      84,
+		"sodium":   1500
+	},
+	{	"gender": "male",
+		"age-beg": 46,
+		"age-end": 65,
+		"calories": 2400,
+		"protein":  56,
+		"fat":      80,
+		"sodium":   1500
+	},
+	{	"gender": "male",
+		"age-beg": 66,  
+		"age-end": 125,
+		"calories": 2200,
+		"protein":	46,
+		"fat":		76,
+		"sodium":	1500
+	},
+	{	"gender": "female",
+		"age-beg": 0,
+		"age-end": 25,
+		"calories": 2200,
+		"protein":  46,
+		"fat":		75,
+		"sodium":   1500
+	},
+	{	"gender": "female",
+		"age-beg": 26,
+		"age-end": 45,
+		"calories": 2000,
+		"protein":  46,
+		"fat":      70,
+		"sodium":   1500
+	},
+	{	"gender": "female",
+		"age-beg": 46,
+		"age-end": 65,
+		"calories": 1800,
+		"protein":  46,
+		"fat":      60,
+		"sodium":   1500
+	},
+	{	"gender": "female",
+		"age-beg": 66,
+		"age-end": 125,
+		"calories": 1800,
+		"protein":	46,
+		"fat":		60,
+		"sodium":	1500 
+	}
+]				
+			
+
+	
+				
+				

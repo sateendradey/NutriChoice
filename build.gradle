@@ -1,0 +1,26 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'application'
+apply plugin: 'java-library'
+
+mainClassName = 'Presentation.StartHere'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+  compile 'org.mongodb:mongo-java-driver:3.4.3'
+  compile 'org.json:json:20141113'
+  testImplementation 'junit:junit:4.12'
+}
+
+task loadDb (type: JavaExec) {
+	classpath = sourceSets.main.runtimeClasspath
+	main = 'LoadData.LoadRecipes'
+}
+
+run{
+    standardInput = System.in
+}
+run.dependsOn(loadDb)
